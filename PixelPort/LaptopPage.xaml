@@ -1,0 +1,71 @@
+﻿<Page x:Class="PixelPort.LaptopPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PixelPort"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="LaptopPage">
+
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <WrapPanel Orientation="Horizontal">
+                <!-- Product Images -->
+                <TextBlock Text="Welcome to Laptop Page" FontSize="20"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <Image Source="Images/asus1.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus2.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus3.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus4.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus5.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus6.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus7.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus8.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/asus9.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/dell1.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/dell2.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/dell3.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/dell4.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/hp1.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/hp2.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/hp3.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/hp4.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/hp5.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo1.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo10.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo11.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo12.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo13.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo14.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo15.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo16.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo17.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo18.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo19.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo2.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo20.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo21.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo22.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo23.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo23.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo24.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo25.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo26.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo27.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo3.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo4.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo5.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo6.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo7.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo8.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/lenovo9.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/msi2.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/msi3.png" Width="150" Height="150" Margin="5"/>
+                <Image Source="Images/msi4.png" Width="150" Height="150" Margin="5"/>
+             
+            </WrapPanel>
+        </ScrollViewer>
+    </Grid>
+
+</Page>

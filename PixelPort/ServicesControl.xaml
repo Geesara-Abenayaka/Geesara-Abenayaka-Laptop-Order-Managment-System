@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="PixelPort.ServicesControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PixelPort"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="299*"/>
+            <ColumnDefinition Width="501*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="20 Years of Leadership in Sri Lanka’s Laptop Market" FontSize="25" Foreground="#d3abd3" HorizontalAlignment="Left" Margin="150,20,0,20" Grid.ColumnSpan="2"/>
+        <TextBlock Margin="20,80,20,20" Foreground="white" FontSize="20" TextWrapping="Wrap" Grid.ColumnSpan="2" TextAlignment="Justify">
+    For over two decades, Pixel Port has been a beacon of innovation, reliability, and exceptional service in Sri Lanka’s laptop market. 
+    Founded in 2003 by visionary entrepreneur and computer engineer Mr. Geesara Abenayaka, the store began with a simple mission: to bring world-class technology to Sri Lankans. 
+    Over the years, it has evolved into the nation’s leading laptop retailer, trusted by individuals, businesses, and institutions for its commitment to quality and customer satisfaction. 
+    
+    Partnering with globally renowned brands such as Dell, HP, Lenovo, ASUS, and Apple, Pixel Port has consistently provided cutting-edge laptops tailored to diverse needs—be it for students, professionals, gamers, or creatives.
+    <LineBreak/>
+    <LineBreak/>
+    As technology advanced, Pixel Port stayed ahead of the curve, setting benchmarks in the Sri Lankan market. 
+    It was the first to introduce innovations like SSD storage, touch screens, and 2-in-1 laptop capabilities. 
+    The store’s mission extended beyond selling laptops, focusing on educating customers and empowering them to make informed decisions. 
+    This approach ensured customers could access devices perfectly suited to their requirements.
+    Alongside its pioneering products, the store became known for its unparalleled service, offering expert guidance during purchases and comprehensive after-sales support. 
+    
+        </TextBlock>
+
+    </Grid>
+</UserControl>

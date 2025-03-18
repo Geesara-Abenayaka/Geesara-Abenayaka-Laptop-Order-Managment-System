@@ -1,0 +1,202 @@
+﻿<UserControl x:Class="PixelPort.LaptopControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PixelPort"
+             xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid>
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <WrapPanel Orientation="Horizontal" HorizontalAlignment="center" >
+                    <!-- Product Images -->
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus1.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Acer Swift 3" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.240,500.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus3.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Dell Inspiron" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.265,200.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus4.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="HP Pavilion" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.215,800.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus5.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Lenovo ThinkPad" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.280,100.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus6.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Acer Aspire" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.260,500.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus7.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="HP Spectre" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.275,400.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus2.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Lenovo IdeaPad" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.240,800.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus8.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Dell XPS" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.270,000.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/asus9.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Acer Nitro" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.220,900.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="5">
+                        <Image Source="Images/dell1.png" Width="150" Height="100" Margin="5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Buy Now" />
+                                </StackPanel>
+                            </Button>
+                            <Button Style="{StaticResource buynowbutton}" Click="BuyNowButton_Click" >
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Spec" HorizontalAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <TextBlock Text="Lenovo Legion" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                        <TextBlock Text="Price Rs.280,600.00" Foreground="#b973ee" HorizontalAlignment="center" FontSize="15"/>
+                    </StackPanel>
+
+
+                </WrapPanel>
+            </ScrollViewer>
+        </Grid>
+
+    </Grid>
+</UserControl>
