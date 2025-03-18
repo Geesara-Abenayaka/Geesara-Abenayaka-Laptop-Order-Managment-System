@@ -1,0 +1,120 @@
+.carttopic {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+
+
+.account {
+    padding-left: 300px;
+    display: grid;
+    grid-template-columns: 450px 200px 200px 200px;
+
+}
+
+.dfgh {
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+hr.new {
+    border: 5px solid white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.product-image {
+    height: 100px;
+    padding-left: 295px;
+}
+
+.productmodel{
+    padding-top: 15px;
+    position:absolute;
+    left: 235px;
+    font-family: "Roboto";
+    color:white;
+    display: inline;
+}
+.quantity{
+    padding-top: 15px;
+    position:absolute;
+    font-size: 20px;
+    right: 720px;
+    font-family: "Roboto";
+    color:white;
+    display: inline;
+}
+.priceofproduct{
+    padding-top: 15px;
+    position: absolute;
+    font-size: 20px;
+    right: 480px;
+    font-family: "Roboto";
+    color:white;
+    display: inline;
+}
+.priceofsamemodel{
+    padding-top: 15px;
+    position: absolute;
+    font-size: 20px;
+    right: 270px;
+    font-family: "Roboto";
+    color:white;
+    display: inline;
+}
+.priceofsamemodel2{
+    padding-top: 15px;
+    position: absolute;
+    font-size: 20px;
+    right: 270px;
+    font-family: "Roboto";
+    color:white;
+  
+}
+.cartpage{
+    height:120vh;
+    color:rgb(68, 68, 68);
+
+}
+.cartcontent{
+    color:rgb(68, 68, 68);
+  
+}
+.deleteproduct{
+    color:blueviolet;
+    height:50px;
+    width:50px;
+ 
+}
+.deletebtn{
+    background-color:rgb(68, 68, 68);
+    border: none;
+    border-radius: 20px;
+    margin-left: 160px;
+}
+.placeorderbtn-cart{
+    position: absolute;
+    left:1080px;
+    background-color: rgb(189, 43, 226);
+    border:none;
+    border-radius: 50px;
+   width:250px;
+   height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: white;
+    transition: 0.5s;
+
+}
+.placeorderbtn-cart:hover{
+    background-color: rgb(255, 0, 221);
+}
+.placeorderbuttonback{
+    background-color: (68, 68, 68); 
+    height:15vh;
+}

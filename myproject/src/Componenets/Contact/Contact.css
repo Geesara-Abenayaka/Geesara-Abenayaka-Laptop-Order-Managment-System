@@ -1,0 +1,210 @@
+#para3 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 30px;
+    color: #dfaffd;
+}
+
+#ifra {
+    display: flex;
+    justify-content: center;
+    /* Horizontally centers the iframe */
+    align-items: center;
+    /* Vertically centers the iframe (if parent has height) */
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    border-radius: 15px;
+    /* Adds rounded corners to the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Subtle shadow for depth */
+}
+
+#ifra iframe {
+    border: none;
+    /* Removes default iframe border */
+    border-radius: 30px;
+    /* Adds rounded corners to the iframe itself */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for the iframe */
+    max-width: 90%;
+    /* Makes iframe responsive */
+    width: 1400px;
+    /* Default width */
+    height: 500px;
+    /* Default height */
+}
+
+
+#para4 {
+    text-align: left;
+
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 25px;
+    color: #dfaffd;
+    padding-left: 55px;
+}
+
+#para5 {
+    text-align: left;
+
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    padding-left: 55px;
+}
+
+#form {
+
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    padding-left: 55px;
+}
+
+#form1 {
+
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    padding-left: 55px;
+}
+
+
+.lable {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+/* #name #email{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    border-width: 0cap;
+} */
+
+input[type=text],
+select {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: 0px solid #ccc;
+    border-radius: 15px;
+    font-size: 18px;
+    /* Larger text */
+    font-family: 'Arial', sans-serif;
+    color: #666;
+    /* Grey text color */
+    border: none;
+}
+
+input[type="text"]:focus,
+select:focus {
+    outline: none;
+    /* Remove the default outline */
+}
+
+input[type=submit] {
+    width: 400px;
+    background-color: #a600f3;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #68298f;
+}
+
+/* input[type=text1],
+select {
+
+    width:400px;
+    height: 250px;
+    padding: 125px 0;
+    margin: 8px 0;
+    top: 20px; 
+    left: 20px;
+    border: 0px solid #ccc;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #666; 
+    border: none; 
+    
+    
+}
+input[type="text1"]:focus,
+select:focus {
+    outline: none; 
+} */
+textarea {
+
+    padding: 12px 20px;
+    width: 400px;
+    border: 0px solid #ccc;
+    border-radius: 15px;
+
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    color: #666;
+    /* Grey text color */
+}
+
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.imagetel {
+    height: 300px;
+    height: 300px;
+    float: right;
+    padding-right: 55px;
+}
+
+.para5 {
+
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.para6 {
+    float: right;
+    padding-right: 215px;
+    color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+#ifra {
+    padding-bottom: 80px;
+    /* opacity: 0.8; */
+
+}
+
+.massageform {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+  
+    -webkit-backdrop-filter: blur(10px);
+
+    border-radius: 10px;
+}
+
+.wholebody {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: url("\lapwal.jpg");
+
+}

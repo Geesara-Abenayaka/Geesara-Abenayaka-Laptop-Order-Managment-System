@@ -1,0 +1,93 @@
+.pagination-button {
+    width: 30px;
+    margin-top: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #000000;
+    font-family: "Roboto";
+    color: white;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Roboto";
+
+
+}
+
+.pagination-button:hover {
+    background-color: #ff009d;
+   
+}
+.pagination-button1 {
+    width: 40px;
+    margin-top: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #000000;
+    font-family: "Roboto";
+    color: white;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Roboto";
+
+
+}
+
+.pagination-button1:hover {
+    background-color: #ff009d;
+  
+}
+
+
+
+.pagination-button2 {
+    width: 40px;
+    margin-top: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #000000;
+    font-family: "Roboto";
+    color: white;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Roboto";
+
+
+}
+
+.pagination-button2:hover {
+    background-color: #ff009d;
+   
+}
+
+.qqqqq {
+    padding-top: 25px;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 50px;
+}
+/* padding-top: 25px;
+padding-left: 30px;
+display: flex;
+flex-direction: row;
+gap: 50px;  */
+.pagination-button1{
+    margin-left: 42%;
+
+}
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

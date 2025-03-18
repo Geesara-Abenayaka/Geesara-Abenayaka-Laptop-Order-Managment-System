@@ -1,0 +1,88 @@
+.footerbackground{
+    background-color: black;
+    height:420px;
+    padding-top: 20px;
+}
+.headsetlogo{
+    width:75px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.vvv{
+    display:inline-table;
+    color:rgb(119, 119, 119);
+    font-family: "Roboto";
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.ooo{
+    color:white;
+    font-family: "Roboto";
+    font-size: 23px;
+}
+#sitename{
+    padding-left: 20px;
+    font-family: "Roboto";
+    color:rgb(119, 119, 119);
+    font-weight: 800;
+}
+#address{
+
+    font-family: "Roboto";
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+#techsupport{
+    font-family: "Roboto";
+    color:rgb(119, 119, 119);
+    font-weight: 800;
+    
+}
+#number{
+    display: inline;
+    font-family: "Roboto";
+    color:rgb(119, 119, 119);
+    font-weight: 400;
+}
+.horizontalizer{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footerheader{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: "Roboto";
+    color:rgb(224, 138, 255);
+    font-weight: 800;
+}
+.brandsinthestore{
+    padding-left: 50px;
+    font-family: "Roboto";
+    color:rgb(187, 187, 187);
+
+}
+.headerspacer{
+    padding-left: 140px;
+}
+.footerbottom{
+    padding-left: 20px;
+    font-family: "Roboto";
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.reacticon{
+   
+    height:35px;
+    width:35px;
+    padding-right: 10px;
+
+}
+.reacticon:hover{
+    color:rgb(182, 91, 231);
+    transition: 0.5s;
+}

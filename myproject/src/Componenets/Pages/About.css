@@ -1,0 +1,33 @@
+
+.topic{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #dfaffd;
+    text-align: center;
+    font-size: 40px;
+}
+.para1{
+    font-family: "Roboto", serif;
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 300;
+    color: #ffffff;
+    /* #9d00ff
+    #ff009d */
+}
+.topic1{
+    font-family:serif;
+    color: #dfaffd;
+    text-align: center;
+    font-size: 15px;
+}
+.topic12{
+    font-family:serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
